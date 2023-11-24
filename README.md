@@ -18,7 +18,7 @@ pkg install build-essential clang cmake git -y
 
 3. Clone repo & chmod:
 ```
-git clone https://github.com/Darktron/xmrig.git
+git clone --branch ARMv7 --single-branch https://github.com/Darktron/xmrig.git
 cd xmrig
 chmod +x start.sh
 ```
