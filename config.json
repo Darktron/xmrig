@@ -61,7 +61,7 @@
         {
             "algo": "rx/0",
             "coin": null,
-            "url": "zephyr.miningocean.org:5332",
+            "url": "us-zephyr.miningocean.org:5332",
             "user": "ZEPHYR3cvd94zAuNdQoH9D9VchJzRGsRZCtJYXQmPD4JJTkvYSUZnz781kfrCtz8XCgXCU18ok98qEwcJWxsmc1CT7MQDjegz2M2Y",
             "pass": "THEBLKHTR",
             "rig-id": null,
