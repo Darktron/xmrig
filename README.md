@@ -32,10 +32,10 @@ cmake ~/xmrig && make -j$(nproc)
 ```
 nano config.json
 ```
-- Line `62` algo = your algorithm of choice.
-- Line `64` url = your pool with port of choice.
-- Line `65` user = your address and after can include `.Difficulty`.
-- Line `66` pass = your worker name of choice.
+- Line `80` algo = your algorithm of choice.
+- Line `82` url = your pool with port of choice.
+- Line `83` user = your address and after can include `.Difficulty`.
+- Line `84` pass = your worker name of choice.
 
 # Usage:
 2. Start ccminer with:
