@@ -14,7 +14,7 @@ https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.11
 ```
 yes | pkg update -y
 yes | pkg upgrade -y
-yes | pkg install build-essential clang cmake git -y
+yes | pkg install build-essential binutils clang cmake git wget -y
 ```
 
 3. Clone repo & chmod:
@@ -27,6 +27,13 @@ chmod +x start.sh
 4. Compile XMRig:
 ```
 cmake ~/xmrig && make -j$(nproc)
+```
+4.1 Compile with HWLOC
+```
+~/xmrig/scripts/build.hwloc.sh
+cmake -DHWLOC_INCLUDE_DIR=~/xmrig/scripts/deps/include \
+      -DHWLOC_LIBRARY=~/xmrig/scripts/deps/lib/libhwloc.a .
+make -j$(nproc)
 ```
 
 5. Change your algo, pools, address, and miner name with:
