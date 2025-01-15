@@ -29,7 +29,7 @@ chmod +x start.sh
 cmake ~/xmrig
 make -j$(nproc)
 ```
-5. Compile with HWLOC
+5. Compile XMRig with HWLOC:
 ```
 ~/xmrig/scripts/build.hwloc.sh
 cmake -DHWLOC_INCLUDE_DIR=~/xmrig/scripts/deps/include -DHWLOC_LIBRARY=~/xmrig/scripts/deps/lib/libhwloc.a ~/xmrig
