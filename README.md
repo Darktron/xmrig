@@ -26,13 +26,13 @@ chmod +x start.sh
 
 4. Compile XMRig:
 ```
-cmake ~/xmrig && make -j$(nproc)
+cmake ~/xmrig
+make -j$(nproc)
 ```
 5. Compile with HWLOC
 ```
 ~/xmrig/scripts/build.hwloc.sh
-cmake -DHWLOC_INCLUDE_DIR=~/xmrig/scripts/deps/include \
-      -DHWLOC_LIBRARY=~/xmrig/scripts/deps/lib/libhwloc.a .
+cmake -DHWLOC_INCLUDE_DIR=~/xmrig/scripts/deps/include -DHWLOC_LIBRARY=~/xmrig/scripts/deps/lib/libhwloc.a ~/xmrig
 make -j$(nproc)
 ```
 
