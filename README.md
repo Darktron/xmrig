@@ -12,8 +12,9 @@ https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.11
 2. Installing clang and dependencies:
 - Type `y` then enter key in any prompts!
 ```
-yes | pkg update && pkg upgrade
-yes | pkg install build-essential clang cmake git
+yes | pkg update -y
+yes | pkg upgrade -y
+yes | pkg install build-essential clang cmake git -y
 ```
 
 3. Clone repo & chmod:
