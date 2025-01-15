@@ -28,7 +28,7 @@ chmod +x start.sh
 ```
 cmake ~/xmrig && make -j$(nproc)
 ```
-4.1 Compile with HWLOC
+5. Compile with HWLOC
 ```
 ~/xmrig/scripts/build.hwloc.sh
 cmake -DHWLOC_INCLUDE_DIR=~/xmrig/scripts/deps/include \
@@ -36,7 +36,7 @@ cmake -DHWLOC_INCLUDE_DIR=~/xmrig/scripts/deps/include \
 make -j$(nproc)
 ```
 
-5. Change your algo, pools, address, and miner name with:
+6. Change your algo, pools, address, and miner name with:
 ```
 nano config.json
 ```
@@ -46,11 +46,11 @@ nano config.json
 - Line `84` pass = your worker name of choice.
 
 # Usage:
-2. Start ccminer with:
+1. Start ccminer with:
 ```
 ~/xmrig/start.sh
 ```
-3. Close ccminer with:
+2. Close ccminer with:
 ```
 CTRL + c
 ```
