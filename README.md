@@ -1,6 +1,6 @@
 # XMRig for Termux
 
-This is a WIP repo for making XMRig and run on latest termux(v0.118.0) and latest clang(v17.0.5).
+This is a WIP repo for making XMRig and run on latest termux(v0.118.3) and latest clang(v21.1.8).
 
 # **`Disclaimer: I accept no warranties or liabilities on this repo. Do it at your own risk!!!`**
 
