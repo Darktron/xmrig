@@ -21,10 +21,10 @@ yes | pkg install build-essential binutils clang cmake git wget -y
 3. Clone repo & chmod:
 ```
 git clone --branch ARMv8 --single-branch https://github.com/Darktron/xmrig.git
-mkdir ~/xmrig/build
+mkdir ~/xmrig/build/
+cd ~/xmrig/build/
 chmod +x ~/xmrig/start.sh
-cp config.json start.sh ~/xmrig/build/
-cd ~/xmrig/build
+cp ~/xmrig/config.json ~/xmrig/start.sh ~/xmrig/build/
 ```
 
 4. Compile XMRig:
