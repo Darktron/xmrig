@@ -1,1 +1,1 @@
-~/xmrig/xmrig -c ~/xmrig/config.json
+~/xmrig/build/xmrig -c ~/xmrig//build/config.json
