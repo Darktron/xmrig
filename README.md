@@ -22,21 +22,22 @@ yes | pkg install build-essential binutils clang cmake git wget -y
 ```
 git clone --branch ARMv8 --single-branch https://github.com/Darktron/xmrig.git
 mkdir ~/xmrig/build
-cd ~/xmrig/build
 chmod +x ~/xmrig/start.sh
+cp config.json start.sh ~/xmrig/build/
+cd ~/xmrig/build
 ```
 
 4. Compile XMRig:
 ```
 cmake ..
 make -j$(nproc)
-mv xmrig-notls xmrig
-strip ~/xmrig/xmrig
+cp xmrig-notls xmrig
+strip ~/xmrig/build/xmrig
 ```
 
 5. Change your algo, pools, address, and miner name with:
 ```
-nano config.json
+nano ~/xmrig/build/config.json
 ```
 - Line `62` algo = your algorithm of choice.
 - line `63` coin = coin of choice (optional).
@@ -47,7 +48,7 @@ nano config.json
 # Usage:
 1. Start ccminer with:
 ```
-~/xmrig/start.sh
+~/xmrig/build/start.sh
 ```
 
 2. Close ccminer with:
