@@ -1,4 +1,4 @@
-# XMRig for Termux
+# XMRig for Android Termux
 
 This is a WIP repo for making XMRig v6.25.0 and run on latest termux(v0.118.3) and latest clang(v21.1.8).
 
