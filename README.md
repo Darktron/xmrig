@@ -15,7 +15,7 @@ https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.11
 ```
 yes | pkg update -y
 yes | pkg upgrade -y
-yes | pkg install build-essential binutils clang cmake git wget -y
+yes | pkg install build-essential binutils clang cmake libuv nano git wget -y
 ```
 
 3. Clone repo & chmod:
