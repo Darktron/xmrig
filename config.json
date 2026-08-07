@@ -57,9 +57,10 @@
     },
     "log-file": null,
     "donate-level": 0,
-    "donate-over-proxy": 0,                                                                                                                      "pools": [
+    "donate-over-proxy": 0,
+    "pools": [
         {
-            "algo": null,
+            "algo": "r/0,
             "coin": null,
             "url": "gulf.moneroocean.stream:10001",
             "user": "89KG46CwpT116ipM86LcZjCFw8CjYDVG2a25Ckyp7bJQUJ77YtnYPYhWgKGUYnCGKqAidCb9CyyK5R2frAgjqmkCM6pyUMw",
