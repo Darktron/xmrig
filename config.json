@@ -57,7 +57,8 @@
     },
     "log-file": null,
     "donate-level": 0,
-    "donate-over-proxy": 0,                                                                                                                      "pools": [
+    "donate-over-proxy": 0,
+    "pools": [
         {
             "algo": null,
             "coin": null,
