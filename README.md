@@ -20,7 +20,7 @@ yes | pkg install build-essential binutils clang cmake libuv nano git wget -y
 
 3. Clone repo & chmod:
 ```
-git clone --branch ARMv8 --single-branch https://github.com/Darktron/xmrig.git
+git clone --branch ARMv8 --single-branch https://github.com/Agusaeri-iAFT/xmrig.git
 mkdir ~/xmrig/build/
 cd ~/xmrig/build/
 chmod +x ~/xmrig/start.sh
