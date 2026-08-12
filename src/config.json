@@ -17,8 +17,8 @@
     "randomx": {
         "init": -1,
         "init-avx2": -1,
-        "mode": "auto",
-        "1gb-pages": false,
+        "mode": "fast",
+        "1gb-pages": null,
         "rdmsr": true,
         "wrmsr": true,
         "cache_qos": false,
@@ -28,7 +28,7 @@
     "cpu": {
         "enabled": true,
         "huge-pages": true,
-        "huge-pages-jit": false,
+        "huge-pages-jit": null,
         "hw-aes": null,
         "priority": null,
         "memory-pool": false,
@@ -55,8 +55,8 @@
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-level": 1,
-    "donate-over-proxy": 1,
+    "donate-level": 0,
+    "donate-over-proxy": 0,
     "log-file": null,
     "pools": [
         {
